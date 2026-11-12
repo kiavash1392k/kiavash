@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#090a0e" />
+  <meta name="description" content="کیـاوش | برنامه‌نویس و توسعه‌دهنده پروژه‌های دیجیتال؛ طراحی سایت، ساخت ربات تلگرام و روبیکا و اجرای ایده‌های اختصاصی." />
+  <title>KIAVASH — برنامه‌نویس و توسعه‌دهنده دیجیتال</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="منوی اصلی">
+      <a class="brand" href="#home" aria-label="کیـاوش، صفحه اصلی">
+        <span class="brand-mark">K<span>.</span></span>
+        <span class="brand-name">KIAVASH<span>DEVELOPER</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="باز کردن منو" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a class="nav-link active" href="#home">خانه</a>
+        <a class="nav-link" href="#about">درباره من</a>
+        <a class="nav-link" href="#services">خدمات</a>
+        <a class="nav-link" href="#work">حوزه‌های کاری</a>
+        <a class="nav-link" href="#contact">ارتباط</a>
+        <a class="nav-cta" href="https://t.me/k_e_i_v_a_n_m" target="_blank" rel="noopener">شروع همکاری <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <div class="availability reveal"><span class="status-dot"></span> آماده برای ایده‌های تازه و همکاری</div>
+          <p class="eyebrow reveal delay-1"><span class="eyebrow-line"></span> سلام، من</p>
+          <h1 class="hero-title reveal delay-1">کیـاوشم؛<br><span class="gradient-text">کدها را به</span><br>ایده تبدیل می‌کنم<span class="orange-dot">.</span></h1>
+          <p class="hero-description reveal delay-2">برنامه‌نویس و توسعه‌دهنده پروژه‌های دیجیتال؛ از طراحی وب‌سایت‌های مدرن تا ساخت ربات‌های کاربردی و پیاده‌سازی ایده‌های اختصاصی.</p>
+          <div class="hero-actions reveal delay-2">
+            <a class="button button-primary" href="#contact">بیا درباره ایده‌ات حرف بزنیم <span>↙</span></a>
+            <a class="button button-ghost" href="#services"><span class="play-icon">⌄</span> مشاهده خدمات</a>
+          </div>
+          <div class="hero-meta reveal delay-3">
+            <div class="meta-item"><strong>۰۱</strong><span>ایده خلاقانه</span></div>
+            <i></i>
+            <div class="meta-item"><strong>∞</strong><span>امکان ساخت</span></div>
+            <i></i>
+            <div class="meta-item"><strong>۱۰۰٪</strong><span>تمرکز روی کیفیت</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal delay-2" aria-label="تصویر گرافیکی کدنویسی">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="orbit-dot dot-one"></div><div class="orbit-dot dot-two"></div><div class="orbit-dot dot-three"></div>
+          <div class="visual-glow"></div>
+          <div class="code-window">
+            <div class="window-top"><div class="window-dots"><b></b><b></b><b></b></div><span>kiavash.js</span><span class="window-menu">•••</span></div>
+            <div class="code-content" dir="ltr">
+              <div><span class="line-no">01</span><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div>
+              <div><span class="line-no">02</span>&nbsp;&nbsp;name: <span class="code-green">"Kiavash"</span>,</div>
+              <div><span class="line-no">03</span>&nbsp;&nbsp;creative: <span class="code-orange">true</span>,</div>
+              <div><span class="line-no">04</span>&nbsp;&nbsp;skills: [</div>
+              <div><span class="line-no">05</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Web Development"</span>,</div>
+              <div><span class="line-no">06</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">"Bots & Automation"</span></div>
+              <div><span class="line-no">07</span>&nbsp;&nbsp;],</div>
+              <div><span class="line-no">08</span>&nbsp;&nbsp;build: <span class="code-purple">(idea) =&gt;</span> <span class="code-orange">reality</span></div>
+              <div><span class="line-no">09</span>};<span class="typing-caret"></span></div>
+            </div>
+            <div class="window-footer"><span><i></i> All systems ready</span><span>UTF-8&nbsp; • &nbsp;JavaScript</span></div>
+          </div>
+          <div class="floating-chip chip-top"><span class="chip-icon">✳</span><span>Creative<br><b>Developer</b></span></div>
+          <div class="floating-chip chip-bottom"><span class="chip-icon">{ }</span><span>Turning ideas<br><b>into reality</b></span></div>
+          <div class="visual-caption"><span></span> THINK · BUILD · CREATE</div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="scroll-mouse"><i></i></span><span>برای کشف بیشتر اسکرول کن</span></a>
+      <div class="hero-backdrop-text" aria-hidden="true">DEVELOPER</div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container strip-inner"><span>IDEAS</span><b>✳</b><span>CODE</span><b>✳</b><span>DESIGN</span><b>✳</b><span>DEVELOPMENT</span><b>✳</b><span>IDEAS</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-layout">
+        <div class="section-heading reveal">
+          <span class="section-kicker">01 / درباره من</span>
+          <h2>هر پروژه،<br>از یک <span class="gradient-text">ایده</span> شروع می‌شود.</h2>
+          <div class="heading-decoration"><span></span><span></span><span></span></div>
+        </div>
+        <div class="about-content reveal delay-1">
+          <p class="about-lead">سلام! 👋 من در زمینه برنامه‌نویسی و توسعه پروژه‌های دیجیتال فعالیت می‌کنم.</p>
+          <p>علاقه‌مندم ایده‌هایی را که در ذهن شما هستند، با کمک تکنولوژی به تجربه‌هایی واقعی، کاربردی و خوش‌ساخت تبدیل کنم. برای من، یک پروژه خوب فقط چند خط کد نیست؛ ترکیبی از خلاقیت، دقت و توجه به نیاز کاربر است.</p>
+          <div class="about-note"><span class="note-symbol">“</span><p>هدفم ساختن راه‌حل‌هایی است که هم ظاهر جذابی داشته باشند و هم واقعاً به کار بیایند.</p></div>
+          <a class="text-link" href="#contact">بیشتر با هم آشنا شویم <span>↙</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-top reveal">
+          <div><span class="section-kicker">02 / خدمات من</span><h2>چه چیزی می‌توانیم<br><span class="gradient-text">بسازیم؟</span></h2></div>
+          <p>از اولین جرقه یک ایده تا اجرای یک محصول دیجیتال؛ برای تبدیل خواسته‌هایت به راه‌حل، کنارت هستم.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-card-top"><span class="service-number">۰۱</span><span class="service-icon">⌘</span></div>
+            <h3>طراحی و توسعه وب‌سایت</h3>
+            <p>طراحی سایت‌های مدرن، واکنش‌گرا و کاربرپسند متناسب با هویت و نیاز کسب‌وکار شما.</p>
+            <div class="service-tags"><span>HTML / CSS</span><span>JavaScript</span><span>Responsive</span></div>
+            <a href="#contact" aria-label="درخواست طراحی وب‌سایت">↙</a>
+          </article>
+          <article class="service-card reveal delay-1">
+            <div class="service-card-top"><span class="service-number">۰۲</span><span class="service-icon">✳</span></div>
+            <h3>ساخت ربات تلگرام</h3>
+            <p>توسعه ربات‌های کاربردی برای مدیریت، پاسخ‌گویی، اطلاع‌رسانی و خودکارسازی کارها.</p>
+            <div class="service-tags"><span>Telegram Bot</span><span>Automation</span></div>
+            <a href="#contact" aria-label="درخواست ساخت ربات تلگرام">↙</a>
+          </article>
+          <article class="service-card reveal delay-2">
+            <div class="service-card-top"><span class="service-number">۰۳</span><span class="service-icon">⌁</span></div>
+            <h3>ساخت ربات روبیکا</h3>
+            <p>پیاده‌سازی ربات‌های روبیکایی متناسب با سناریوی موردنظر و امکانات موردنیاز شما.</p>
+            <div class="service-tags"><span>Rubika</span><span>Bot Development</span></div>
+            <a href="#contact" aria-label="درخواست ساخت ربات روبیکا">↙</a>
+          </article>
+          <article class="service-card reveal delay-3">
+            <div class="service-card-top"><span class="service-number">۰۴</span><span class="service-icon">⟡</span></div>
+            <h3>پروژه‌های اختصاصی</h3>
+            <p>بررسی ایده‌های خاص و اجرای پروژه‌های برنامه‌نویسی با راهکارهایی متناسب با هدف شما.</p>
+            <div class="service-tags"><span>Custom Ideas</span><span>Programming</span></div>
+            <a href="#contact" aria-label="مشاوره پروژه اختصاصی">↙</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work-section" id="work">
+      <div class="container">
+        <div class="section-top reveal">
+          <div><span class="section-kicker">03 / حوزه‌های کاری</span><h2>ایده‌هایی برای<br><span class="gradient-text">شروع همکاری</span></h2></div>
+          <p>هر پروژه داستان خودش را دارد. این‌ها نمونه‌ای از زمینه‌هایی هستند که می‌توانیم با هم روی آن‌ها کار کنیم.</p>
+        </div>
+        <div class="work-grid">
+          <article class="work-card work-large reveal">
+            <div class="work-art art-web"><div class="browser-frame"><div class="browser-bar"><i></i><i></i><i></i><span></span></div><div class="browser-layout"><div class="browser-side"></div><div class="browser-main"><b></b><b></b><b></b><div class="browser-blocks"><i></i><i></i><i></i></div></div></div></div><div class="art-orb"></div></div>
+            <div class="work-info"><div><span>WEB EXPERIENCE</span><h3>وب‌سایت‌های مدرن و اختصاصی</h3></div><span class="work-arrow">↙</span></div>
+          </article>
+          <article class="work-card reveal delay-1">
+            <div class="work-art art-bot"><div class="bot-card"><div class="bot-avatar">✳</div><div class="bot-lines"><b></b><i></i><i></i></div><div class="bot-message">سلام! چطور می‌تونم کمکت کنم؟</div><div class="bot-input">پیام شما... <span>➤</span></div></div><span class="bot-spark spark-a">✦</span><span class="bot-spark spark-b">✧</span></div>
+            <div class="work-info"><div><span>TELEGRAM & RUBIKA</span><h3>ربات‌های هوشمند و کاربردی</h3></div><span class="work-arrow">↙</span></div>
+          </article>
+          <article class="work-card reveal delay-2">
+            <div class="work-art art-code"><div class="terminal-card"><div class="terminal-head"><span></span><span></span><span></span><b>project.exe</b></div><div class="terminal-body" dir="ltr"><i> &gt; initializing idea...</i><i> &gt; building solution...</i><i class="terminal-success"> &gt; project ready ✓</i></div></div><div class="code-cube">{ }</div></div>
+            <div class="work-info"><div><span>CUSTOM DEVELOPMENT</span><h3>ابزارها و ایده‌های خلاقانه</h3></div><span class="work-arrow">↙</span></div>
+          </article>
+        </div>
+        <p class="work-disclaimer">* موارد بالا نمونه‌ای از حوزه‌های قابل اجرا هستند و به‌معنای نمایش پروژه‌های انجام‌شده نیستند.</p>
+      </div>
+    </section>
+
+    <section class="section process-section">
+      <div class="container process-layout">
+        <div class="section-heading reveal"><span class="section-kicker">04 / مسیر همکاری</span><h2>از فکر تا<br><span class="gradient-text">اجرا</span> در چهار قدم.</h2><p class="process-intro">قرار نیست مسیر پیچیده باشد. با هم مرحله‌به‌مرحله جلو می‌رویم.</p></div>
+        <div class="process-list">
+          <div class="process-item reveal"><span class="process-index">01</span><div><h3>شنیدن ایده</h3><p>درباره نیاز، هدف و چیزی که در ذهن داری صحبت می‌کنیم.</p></div><span class="process-symbol">◎</span></div>
+          <div class="process-item reveal delay-1"><span class="process-index">02</span><div><h3>برنامه‌ریزی</h3><p>امکانات، مسیر اجرا و جزئیات موردنیاز را مشخص می‌کنیم.</p></div><span class="process-symbol">⌘</span></div>
+          <div class="process-item reveal delay-2"><span class="process-index">03</span><div><h3>طراحی و توسعه</h3><p>پروژه را با توجه به توافق‌ها پیاده‌سازی و بررسی می‌کنم.</p></div><span class="process-symbol">✳</span></div>
+          <div class="process-item reveal delay-3"><span class="process-index">04</span><div><h3>تحویل و همراهی</h3><p>نتیجه را ارائه می‌کنم و برای اصلاحات توافق‌شده همراهت هستم.</p></div><span class="process-symbol">↗</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer-section">
+      <div class="container">
+        <div class="offer-card reveal">
+          <div class="offer-glow"></div>
+          <div class="offer-content"><span class="offer-label"><i></i> فرصت شروع همکاری</span><h2>اولین قدم، <span>با من رایگانه!</span></h2><p>برای آشنایی با کیفیت کارم، اولین پروژه را به‌صورت کاملاً رایگان انجام می‌دهم. در صورت رضایت از نتیجه، امکان ادامه همکاری برای پروژه‌های حرفه‌ای و اختصاصی با هزینه توافقی وجود دارد.</p><a class="button button-light" href="https://t.me/k_e_i_v_a_n_m" target="_blank" rel="noopener">درباره پروژه‌ات پیام بده <span>↗</span></a></div>
+          <div class="offer-visual" aria-hidden="true"><div class="gift-ring ring-a"></div><div class="gift-ring ring-b"></div><div class="gift-box"><span>۰۱</span><b>FREE</b><i>FIRST PROJECT</i></div><div class="gift-star star-a">✦</div><div class="gift-star star-b">✧</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal"><span class="section-kicker">05 / ارتباط با من</span><h2>ایده‌ای داری؟<br><span class="gradient-text">شروعش کنیم.</span></h2><p>اگر ایده‌ای داری یا به خدمات برنامه‌نویسی نیازمندی، خوشحال می‌شوم در تبدیل ایده‌ات به یک پروژه واقعی کمکت کنم.</p><a class="contact-handle" href="https://t.me/k_e_i_v_a_n_m" target="_blank" rel="noopener"><span class="telegram-icon">➤</span><span><small>از طریق تلگرام در ارتباط باش</small><b dir="ltr">@k_e_i_v_a_n_m</b></span><span class="handle-arrow">↗</span></a></div>
+        <div class="contact-side reveal delay-1"><div class="contact-orbit"><div class="contact-center">K<span>.</span></div><i class="orbit-icon icon-code">&lt;/&gt;</i><i class="orbit-icon icon-star">✳</i><i class="orbit-icon icon-bot">⌘</i></div><div class="contact-side-note"><span class="status-dot"></span> آماده‌ام درباره ایده‌ات بشنوم</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">K<span>.</span></span><span class="brand-name">KIAVASH<span>DEVELOPER</span></span></a><p>ساخته‌شده با <span>♥</span> و کمی کد.</p><a class="back-top" href="#top">بازگشت به بالا ↑</a><small>© <span id="year"></span> KIAVASH. تمامی حقوق محفوظ است.</small></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
